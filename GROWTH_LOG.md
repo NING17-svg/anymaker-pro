@@ -6,6 +6,13 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-10-10 — anymaker.pro Adsterra integration (V4 placement)
+
+- Filled all 13 ad-units declared in `ad-placement-manifest.json` (page-top 728x90 / 468x60 / 320x50, home-after-entry native, home-directory-end 468x60 / 320x50, guide-native native, guide-section-break 728x90 / 468x60 / 320x50, guide-before-faq 468x60 / 320x50, footer-sponsored smartlink).
+- Codes acquired via the shared Adsterra Chrome automation against `anymaker.pro`; same Banner / Native Banner / Smartlink platform placements are reused across same-format page keys.
+- Popunder, Social Bar, 300x250 / 160x300 / 160x600 banner placements were provisioned on the platform but are intentionally not referenced by the V4 placement inventory and therefore remain uncollected / not written into `src/data/ads.ts`.
+- No route, layout, copy, GA4, GSC, DNS, Cloudflare or GitHub settings were touched; only `src/data/ads.ts` codes were filled and this log entry recorded.
+
 ### 2026-10-10 — anymaker.pro first launch (V4 guide site)
 
 - Game: Anymaker (Steam, vehicle engineering + open-world survival by Geometa).
