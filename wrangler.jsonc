@@ -9,7 +9,7 @@
   },
   "vars": {
     "NEXT_PUBLIC_SITE_URL": "https://anymaker.pro",
-    "NEXT_PUBLIC_GA_MEASUREMENT_ID": "",
+    "NEXT_PUBLIC_GA_MEASUREMENT_ID": "G-K2PQ0GB4B1",
     "NEXT_PUBLIC_BING_SITE_AUTH_CODE": ""
   }
 }
